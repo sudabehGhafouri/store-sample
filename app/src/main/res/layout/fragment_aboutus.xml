@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutusFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whit">
+
+        <TextView
+            android:id="@+id/text_aboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/red"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:text="@string/aboutUs"
+            android:textColor="@color/whit"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="47dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/ic_arrow_back_black_24dp"
+            android:gravity="left"
+            android:textColor="@color/whit" />
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginEnd="13dp"-->
+        <com.example.pnbook.ghafouri_store02.CustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/text_aboutUs"
+            android:text="این اپلیکیشن به عنوان پروژه کلاسی طراحی شده است "
+
+            android:textSize="25sp"
+            android:gravity="center"
+            app:fontName="Roboto_Bold" />
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220dp"
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:text="@string/call" />
+
+        <Button
+            android:id="@+id/btn_siteAddress"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="176dp"
+            android:text="آدرس سایت ما" />
+
+        <Button
+            android:id="@+id/btn_LocationAddress"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="107dp"
+            android:text="موقعیت شما" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ghafouri_store02</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">My Store</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="call">call </string>
+    <string name="aboutUs">About us </string>
+    <string name="favorite_list">Favorite List</string>
+    <string name="exit">Exit</string>
+    <string name="address_Site">site Address</string>
+
+    <string name="Roboto_Bold">Roboto-Bold</string>
+
+    <string name="Roboto_Light">Roboto-Light</string>
+    <string name="Roboto_Medium">Roboto_Medium</string>
+
+
+    <string name="Min_price">Min Price</string>
+    <string name="Max_Price">Max Price</string>
+    <string name="Max_Discount">Max Discount</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
